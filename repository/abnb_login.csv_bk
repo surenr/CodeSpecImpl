@@ -1,0 +1,9 @@
+elementKey,selectionMethod,value
+LoginLink,xpath,//html/body/div[5]/div/div/div[1]/header/div/div/div[3]/div/nav/ul/li[6]/div/div/div/a/div/div/span
+LoginUserName,id,email-login-email
+LoginUserNameErrorContainer,xpath,//html/body/div[11]/div/div/div/div/div/div/div/div/section/div/form/div/div[3]/div/div/div[2]
+LoginPassword,id,email-login-password
+LoginPasswordErrorContainer,xpath,//html/body/div[11]/div/div/div/div/div/div/div/div/section/div/form/div/div[4]/div/div/div[2]
+ShowPasswordButton,xpath,//html/body/div[11]/div/div/div/div/div/div/div/div/section/div/form/div/div[5]/div/div[2]/button
+LoginButton,xpath,//html/body/div[11]/div/div/div/div/div/div/div/div/section/div/form/div/div[7]/button
+MyMessagesLink,xpath,///html/body/div[5]/div/div/div[1]/header/div/div/div[3]/div/nav/ul/li[5]/div/div/a/div/div/span

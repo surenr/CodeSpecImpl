@@ -1,14 +1,15 @@
 Feature: As a user I want to Test Google Search
 	Scenario Outline: 
 		Given Navigate to "https://www.google.com/ncr"
-		And Click on "Google Search Box" with the "id" of "lst-ib"
-		Then I enter "<searchKeyword>" to the "Google Search Box"
-		And Click on "Google Logo" with the "id" of "hplogo"
-		When Click on "Google Search Button" with the "xpath" of "//input[@name='btnK']"
-		Then Wait for "Result Right Panel Title" with the "xpath" of "id('rhs_block')/div[1]/div[1]/div/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]/span" to contain text "<result>"
+		Then Click on "Google Search Box"
+		And I enter "<searchKeyword>" to the "Google Search Box"
+		Then Click on "Google Logo"
+		When Click on "Google Search Button"
+		Then Wait for "Result Right Panel Title" to contain text "<result>"
 
 		Scenarios:
 			|searchKeyword|result|
-			|Cats|Cat|
-			|Dogs|Dog|
+			|Aves|Bird|
+			|Loxodonta|African elephant|
+			|homosapien|Human|
 	

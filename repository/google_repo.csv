@@ -1,0 +1,5 @@
+elementKey,selectionMethod,value
+"Google Search Box",id,"lst-ib"
+"Google Logo",id,"hplogo"
+"Google Search Button",xpath,"//input[@name='btnK']"
+"Result Right Panel Title",xpath,"id('rhs_block')/div[1]/div[1]/div/div[1]/div[2]/div[1]/div/div[2]/div/div/div[2]/div[1]/span"
