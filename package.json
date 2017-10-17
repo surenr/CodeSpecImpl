@@ -1,0 +1,49 @@
+{
+  "name": "CodeSpecJS",
+  "version": "0.0.1",
+  "description": "UI Automation testing without writing code",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor protractor.conf.js",
+    "ci": "protractor protractor.ci.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt/CodeSpecJS.git"
+  },
+  "keywords": [
+    "Zero Code UI Automation",
+    "UI Automation",
+    "Cucumber",
+    "Protractor",
+    "Selenium"
+  ],
+  "author": "Suren Rodrigo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/99xt/CodeSpecJS/issues"
+  },
+  "homepage": "https://github.com/99xt/CodeSpecJS#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/chai-as-promised": "0.0.31",
+    "@types/lodash-es": "^4.14.5",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "cucumber": "^2.3.1",
+    "cucumber-tsflow": "^2.2.0",
+    "protractor": "^5.1.2",
+    "protractor-cucumber-framework": "^3.1.2",
+    "ts-node": "^3.0.6",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.66",
+    "csv-parser": "^1.11.0",
+    "cucumber-html-reporter": "^2.0.0",
+    "fast-csv": "^2.4.0",
+    "lodash": "^4.17.4"
+  }
+}
