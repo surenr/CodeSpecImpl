@@ -22,7 +22,11 @@ exports.config = {
   exclude: ['features/no_edit.feature'],
   capabilities: {
     'browserName': 'chrome',
-    'chromeOptions': { args: [ "--headless", "--disable-gpu", "--window-size=800,600" ] }
+    'chromeOptions': {
+      binary: '/usr/bin/google-chrome',
+      args: ['--enable-logging','--v=1'],
+      extensions: []
+    }
   },
   // multiCapabilities: 
   // [
