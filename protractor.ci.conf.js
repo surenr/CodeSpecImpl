@@ -23,8 +23,7 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome',
     'chromeOptions': {
-      binary: '/usr/bin/google-chrome',
-      args: ['--enable-logging','--v=1'],
+      args: ['--headless', '--enable-logging'],
       extensions: []
     }
   },
@@ -41,8 +40,8 @@ exports.config = {
   //   // }
   // ],
   plugins: [],
- // directConnect: true,
- seleniumAddress: 'http://localhost:4444/wd/hub',
+  directConnect: true,
+ //seleniumAddress: 'http://localhost:4444/wd/hub',
   framework: 'custom',
   ignoreUncaughtExceptions: true,
   frameworkPath: require.resolve('protractor-cucumber-framework'),
