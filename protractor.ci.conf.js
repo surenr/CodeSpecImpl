@@ -23,7 +23,7 @@ exports.config = {
   capabilities: {
     'browserName': 'chrome',
     'chromeOptions': {
-      args: ['--headless', '--enable-logging'],
+      args: [ "--headless", "--disable-gpu", "--window-size=800,600" ],
       extensions: []
     }
   },
